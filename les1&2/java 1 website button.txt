@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Goedemorgen</title>
+    </head>
+        <body>
+      <h1>Tijd met javaScript</h1>
+      <input type="button" value="click me"/>
+
+      <script>
+        window.alert("hello world");
+      </script>
+
+</body>
+
+    </html>

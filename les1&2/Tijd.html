@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Goedemorgen</title>
+    </head>
+        <body>
+      <h1>Tijd met javaScript</h1>
+      <input type="button" value="zet je muis op mij en click" id="mijn webbutton"/>
+
+      <script>
+          let datum = new Date();
+          let newLine = "Je hebt een horloge voor de tijd idioot";   
+          let mijnbutton = document.getElementById("mijn webbutton");
+          mijnbutton.addEventListener("click", ()=>{
+            window.alert(datum + '\n' + newLine);
+          })
+            
+          
+      </script>
+
+</body>
+
+    </html>
